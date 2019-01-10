@@ -20,6 +20,7 @@ BFC 全称为 block formatting context，中文为“块级格式化上下文”
 
 
 ### 三、用途：
+<<<<<<< HEAD
 1. BFC 元素是不会发生 margin 重叠的；
 2. BFC 元素可以用来清除浮动的影响:
 .lbf-content { overflow: hidden; }    /* IE7+ */
@@ -27,6 +28,12 @@ BFC 全称为 block formatting context，中文为“块级格式化上下文”
 
 3. 实现自适应布局
 	普通流体元素在设置了 overflow:hidden 后，会自动填满容器中除了浮动元素以外的剩余空间，形成自适应布局效果.
+=======
+   1.BFC 元素是不会发生 margin 重叠的； 
+   2.实现自适应布局
+  普通流体元素在设置了 overflow:hidden 后，会自动填满容器中除了浮动元素以外的剩余空间，形成自适应布局效果.
+  
+>>>>>>> 2cef98e89917c9966a9317734da22dc54bd1b76c
 ![此处输入图片的描述][1]
 
    3.BFC 元素可以用来清除浮动的影响:
@@ -39,6 +46,11 @@ BFC 全称为 block formatting context，中文为“块级格式化上下文”
    /* 如果不需要兼容 IE7，下面样式可以省略 */
    *display: inline-block; *width: auto;
 }
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> 2cef98e89917c9966a9317734da22dc54bd1b76c
   [1]: https://github.com/liva92/CSS/blob/master/images/bfc.png
