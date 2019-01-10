@@ -76,7 +76,18 @@
  ![此处输入图片的描述][4]
     
 
-    
+ ### 5.无效情形
+ 
+ - inline水平元素的垂直的margin无效；
+    前提一：非替换元素，如，不是<img>元素；
+    前提二：正常书写模式；
+
+ - margin重叠；
+ - display：table-cell/table-row；
+ - position:absolute,元素的非定位方向的margin无效；
+ - 内联特性导致无效，因为内联元素基线对齐，到一定值后，margin就会无效。
+
+  
  
 
 
