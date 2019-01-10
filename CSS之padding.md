@@ -3,7 +3,7 @@
 标签： CSS
 
 ---
-[TOC]
+
 ### 1.padding对block元素的影响：
 
  - 一般情况下都会影响元素尺寸大小；
@@ -35,7 +35,7 @@
 ![padding07][4]
 2、包含子元素
 
->       .box{
+       .box{
         padding: 50%;
         position: relative;
         }
@@ -56,16 +56,16 @@
             </div>
         </div>
 
-  ![images06][5]  
-  
+  ![images06][5]
+
 
  - 两栏自适应布局
 ![images][6]
 
 
 
-    
- 
+
+
 
 
   [1]: https://github.com/liva92/CSS/blob/master/images/padding02.png
